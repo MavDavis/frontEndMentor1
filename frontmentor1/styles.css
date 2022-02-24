@@ -1,0 +1,154 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  --bg-color:#ffe6bc ;
+  --tint-color:#c3b091 ;
+  --background-color:#fff;
+
+}
+body{
+  font-size: 60%;
+  font-family: sans-serif;
+}
+.half-shaped{
+  margin-left: 10px;
+  height:35rem;
+  width: 30rem;
+  background-image:linear-gradient( var(--bg-color), var(--tint-color));
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.phone{
+  background-color: var(--background-color);
+  box-shadow:0 3px 10px rgb(0 0 0 / 0.2);
+  height: 35rem;
+  width: 18rem;
+  border-radius: 20px;
+  position: absolute;
+  top: 5rem;
+  left: 20rem;
+  z-index: 1000;
+}
+.phone-rad{
+  position: relative;
+  left: .5rem;
+  top: .5rem;
+  height: 34rem;
+  width: 17rem;
+  background: rgb(253, 250, 250);
+  width: 17rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+}
+.nav{
+  background-image:linear-gradient( var(--bg-color), var(--tint-color));
+  height: 5rem;
+  width: 17rem;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.navbar{
+  position: relative;
+  top: 0;
+  left: 4.5rem;
+  height: 1.5rem;
+  width:8rem ;
+  background:rgb(253, 250, 250) ;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.chat{
+  background:#ffffe9 ;
+  color: #d0b991;
+  width: 10rem;
+  height: 2rem;
+  padding: 1.9px;
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: .4rem;
+}
+.first{
+  top: 1rem;
+  left: 1rem;
+}
+.second{
+top:1rem ;
+left: 1rem;
+}
+.images{
+  width: 10rem;
+  height: 2rem;
+  padding: 1.9px;
+  border-radius: 5px;
+  position: relative;
+  top: 2rem;
+ left: 12rem;
+}
+img{
+  height: 30px;
+  width: 30px;
+  border-radius: 10px;
+}
+.third{
+  background: white;
+  top: 2.5rem;
+  left: 6rem;
+}
+.fourth{
+    background: white;
+    top: 2.5rem;
+    left: 6rem;
+}
+.fifth{
+  top: 3rem;
+    left: 1rem;
+}
+.sixth, .seventh{
+  top: 3.3rem;
+  left: 1rem;
+  background-image:linear-gradient( var(--bg-color), var(--tint-color));
+  border-radius: 20px;
+  color: #fff;
+  padding: .8rem;
+  border-bottom-left-radius: 0;
+}
+.sixth h6, .seventh h6{
+  position: absolute;
+  top: .8rem;
+  right:.4rem ;
+}
+.last{
+  position: relative;
+  top: 7rem;
+  width: auto;
+  border-radius: 20px;
+  color: black;
+  padding: 1rem;
+  background:#fff;
+ 
+}
+.content{
+  font-size: .8rem;
+  position: absolute;
+  top: 47%;
+  left: 60%;
+  width: 18rem;
+  line-height: 1.2rem;
+}
+.content h3{
+  color: var(--bg-color);
+  line-height: 2rem;
+}
+@media (max-width:450px){
+  .half-shaped{
+      width: 25rem;
+  }
+  .content{
+    position: relative;
+  }
+
+}
